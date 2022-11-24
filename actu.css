@@ -1,0 +1,54 @@
+.actu_row {
+
+	width: 100%;
+	padding: 2%;
+	margin: 5% 0% 5% 0%;
+
+}
+
+.desc_actu {
+
+	vertical-align: center;
+ 	max-height: 66%;
+
+}
+
+.actu_row img {
+
+	width: 200px;
+	height: 200px;
+	margin:  0% 12.5% 0% 12.5%;
+	/*width: 75%;
+	max-width: 280px;
+	height: 75%;*/
+	object-fit: cover;
+	object-position: center center;
+
+}
+
+@media screen and (max-width: 990px) {
+ 
+	.actu_row img {
+		margin:  0% 12.5% 0% 12.5%;
+		width: 75%;
+		height: 75%;
+		object-fit: cover;
+		object-position: center center;
+	
+	}
+   
+  }
+
+  @media screen and (max-width: 575px) {
+ 
+	.actu_row img {
+		margin:  0% 12.5% 0% 12.5%;
+		width: 75%;
+		height: 75%;
+		object-fit: cover;
+		object-position: center center;
+	
+	}
+   
+  }
+   

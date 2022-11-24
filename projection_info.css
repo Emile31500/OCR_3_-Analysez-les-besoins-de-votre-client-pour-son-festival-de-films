@@ -1,0 +1,74 @@
+.film_desc_row{
+
+    width: 100%;
+    padding: 25px;
+    margin: 10% 0px 10% 0px;
+  
+}
+
+.film_description{
+
+  width: 100%;
+  text-align: justify;
+  
+}
+
+.boutton_primaire{
+
+  font-size: 18px;
+  padding: 4px 18px 4px 18px;
+
+}
+
+.film_image {
+
+  width: 80%;
+  min-height: 300px;
+  max-height: 400px;
+  object-fit: cover;
+
+
+}
+
+.form_icon{
+
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+
+}
+
+.bande_annonce_video {
+
+  width: 100%;
+  max-width: 1100px;
+  max-height: 472px;
+}
+
+.col-sm-1 {
+
+  min-width: 90px;
+
+}
+
+
+ 
+ 
+@media screen and (max-width: 900px) {
+ 
+  .img_col{
+
+    max-width: 20%;
+
+  }
+
+  .bande_annonce_video {
+
+    width: 100%;
+    max-width: 800px;
+    max-height: 450px;
+  }
+ 
+}
+
+
